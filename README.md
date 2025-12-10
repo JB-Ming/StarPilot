@@ -697,6 +697,44 @@ StarPilot/
     網站會自動更新 🎉
 ```
 
+#### 🌐 快速部署方式
+
+**方案 1：部署到 Render（推薦，免費）**
+
+適合：API、後端服務、定時任務
+
+```
+步驟：
+1️⃣ 上傳到 GitHub
+   - 確保專案包含 render.yaml 和 requirements.txt
+   
+2️⃣ 前往 https://render.com
+   - 註冊或登入帳號（可用 GitHub 登入）
+   
+3️⃣ 連接 GitHub 倉庫
+   - 點擊「New」→「Blueprint」
+   - 選擇你的 GitHub 倉庫
+   
+4️⃣ 自動部署
+   - Render 會讀取 render.yaml 自動設定
+   - 等待部署完成（約 3-5 分鐘）
+   
+5️⃣ 取得網址
+   - 部署完成後會顯示網址
+   - 例如：https://your-app.onrender.com
+```
+
+**方案 2：部署到 Streamlit Cloud（推薦給網頁介面）**
+
+適合：資料視覺化、互動式儀表板
+
+```
+步驟：
+1️⃣ 推送到 GitHub
+2️⃣ 前往 https://streamlit.io/cloud
+3️⃣ 連結 GitHub 倉庫並點擊 Deploy
+```
+
 > 💡 **推薦起手式**：「我想把這個工具部署到雲端，讓其他人也能用」
 
 ---
