@@ -44,6 +44,7 @@ data/*
 !data/README.md
 playground/*
 !playground/README.md
+!playground/snake_game.html
 
 # Node modules (if using JavaScript)
 node_modules/
