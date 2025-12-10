@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# User data (keep structure, ignore content)
+data/*
+!data/README.md
+playground/*
+!playground/README.md
+
+# Node modules (if using JavaScript)
+node_modules/
+package-lock.json
+
+# Output files
+output/
+reports/
+*.xlsx
+*.csv
+!data/sample*.xlsx
+!data/sample*.csv
