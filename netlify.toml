@@ -1,0 +1,7 @@
+[build]
+  publish = "playground"
+
+[[redirects]]
+  from = "/*"
+  to = "/snake_game.html"
+  status = 200
