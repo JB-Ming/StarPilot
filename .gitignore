@@ -30,6 +30,9 @@ dist/
 Thumbs.db
 desktop.ini
 
+# 個人文件
+晉升申請_曾昭明.md
+
 # Logs
 *.log
 logs/
